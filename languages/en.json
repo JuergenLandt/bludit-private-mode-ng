@@ -1,0 +1,29 @@
+{
+	"plugin-data":
+	{
+		"name": "Private Mode NG",
+		"description": "Private mode for the entire website or articles in a selected category. Require authentication."
+	},
+
+	"label-enable-private-mode": "Private mode",
+	"help-enable-private-mode": "Enable private mode",
+
+	"label-message": "Message",
+	"help-message": "Modal popup",
+
+	"label-redirect": "Url for redirect",
+	"help-redirect": "Admin area or special page",
+
+	"label-private-all": "All private",
+	"help-private-all": "Set all to private",
+
+	"label-private-category": "Select private category",
+	"help-private-category": "'All privat' must be deactivated",
+
+	"label-show-sidebar": "Plugin menu item",
+	"help-show-sidebar": "Show or hide plug-in menu item in the sidebar",
+
+	"enabled": "Enabled",
+	"disabled": "Disabled",
+	"empty-categories": "No categories found. First define categories."
+}

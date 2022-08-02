@@ -1,0 +1,29 @@
+{
+	"plugin-data":
+	{
+		"name": "Private Mode NG",
+		"description": "Privater Modus für die gesamte Website oder Artikel einer ausgewählten Kategorie. Authentifizierung erforderlich."
+	},
+
+	"label-enable-private-mode": "Privater Modus",
+	"help-enable-private-mode": "Privaten Modus einschalten",
+
+	"label-message": "Meldung",
+	"help-message": "Modal Popup",
+
+	"label-redirect": "Url für Weiterleitung",
+	"help-redirect": "Adminbereich oder spezielle Seite",
+
+	"label-private-all": "Alles privat",
+	"help-private-all": "Sämtliche Inhalte auf privat setzen",
+
+	"label-private-category": "Private Kategorie",
+	"help-private-category": "'Alles privat' muss deaktiviert sein",
+
+	"label-show-sidebar": "Plugin Menüpunkt",
+	"help-show-sidebar": "Plugin-Menüpunkt in der Seitenleiste anzeigen oder ausblenden",
+
+	"enabled": "Aktiviert",
+	"disabled": "Deaktiviert",
+	"empty-categories": "Keine Kategorien gefunden. Bitte zuerst Kategorien definieren."
+}
