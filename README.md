@@ -1,8 +1,6 @@
 # Private Mode NG
 Plugin for Bludit CMS - Inspired by '[Private Mode](https://plugins.bludit.com/plugin/private-mode)' 
 
----
-
 <br/>
 
 ## Features
