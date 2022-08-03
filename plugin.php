@@ -110,22 +110,36 @@ class PrivateModeNgPlugin extends Plugin
 
     public function beforeAll()
     {
+
         if ($this->getValue('enable')) {
+
+            $login = new Login();
 
             /**
              * 302 Redirect to admin if not logged in and set private to all.
              */
-            $login = new Login();
             if (! $login->isLogged() && $this->getValue('private-all') === true) {
                 Alert::set($this->getValue('message'));
                 Redirect::url($this->getValue('redirect'));
             }
+
+            /**
+             * Remove pages with specified category if not logged in (all other).
+             */
+            if (! $login->isLogged()) {
+                global $pages;
+
+                foreach ($pages->db as $key=>$page) {
+                    if($page['category'] == $this->getValue('private-category')) {
+                        unset($pages->db[$key]);
+                    }
+                }
+            }
         }
     }
 
-
     // This hook is loaded when the pages are already set
-    function beforeSiteLoad() {
+    public function beforeSiteLoad() {
 
         if ($this->getValue('enable')) {
 
