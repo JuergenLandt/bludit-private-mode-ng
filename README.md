@@ -18,6 +18,7 @@ Plugin for Bludit CMS - Inspired by '[Private Mode](https://plugins.bludit.com/p
 
 - English
 - German
+- Russian
 
 <br/>
 
